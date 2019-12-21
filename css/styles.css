@@ -37,3 +37,12 @@ header {
 .build {
     font-size: 40;
 }
+
+i {
+    font-size: 90px;
+}
+
+#boo {
+    height: 50%;
+    width: auto;
+}
