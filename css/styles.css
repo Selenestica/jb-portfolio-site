@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(71, 71, 71);
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+
+.header-links a{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.resume-box a {
+    border: 1px solid rgb(71, 71, 71);
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 3;
+}
+
+.hi {
+    font-size: 18;
+    text-align: left;
+
+}
+
+.jb {
+    font-size: 90;
+}
+
+.build {
+    font-size: 40;
+}
