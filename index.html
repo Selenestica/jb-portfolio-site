@@ -3,60 +3,77 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
         <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="./css/styles.css">
     </head>
     <body>
 
-    <div id="container">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">JB Wilson</a>
+        <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Experience</a>
+                <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link resume-box" href="#">Resume</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <i id="github-icon" class="devicon-github-plain colored"></i>
+            <li class="nav-item">
+                <a href="./images/JB_Resume (1).pdf" download="JB_Resume.pdf" class="nav-link resume-box">Resume</a>
+            </li>
+            <a href="https://github.com/Selenestica" id="github-icon" class="devicon-github-plain colored"></a>
+            <a href="https://www.linkedin.com/in/jb-wilson-11444a172/" id="linkedin-icon" class="fa fa-linkedin-square"></a>
             </ul>
         </div>
         </nav>
-        <div class="col-xs-1 text-center"> 
-            <h1>
-                <p class="hi">Hi, my name is<br></p>
-                <p class="jb">JB Wilson<br></p>
-                <p class="build">I build things for the web<br></p> 
-            </h1>
-            <img src="./images/boo.jpg" id="boo" class="img-fluid" alt="Responsive image">
-            <h1>About Me</h1>
-            <p id="about-me-p">
-                I'm a full stack software developer based in Houston, Texas specializing in building and designing exceptional, high-quality websites and applications.
-                My goal is to bring value to the world using the latest technologies and frameworks available to me.
-            </p>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-xs-1 text-center"> 
+                <h1>
+                    <p class="hi">Hi, my name is<br></p>
+                    <p class="jb">JB Wilson<br></p>
+                    <p class="build">I build things for the web<br></p> 
+                </h1>
+            </div>
         </div>
+
+            <div class="col-xs-1 text-center"> 
+                <img src="./images/boo.jpg" id="boo" class="img-fluid" alt="Responsive image">
+            </div>
+
+        <div class="row d-flex justify-content-center bg-light">
+            <div class="col-xs-1 text-center"> 
+                <h1 id="about-me" class="text-dark">About Me</h1>
+                <p class="text-dark" id="about-me-p">
+                    I'm a full stack software developer based in Houston, Texas specializing in building and designing exceptional, high-quality websites and applications.
+                    My goal is to bring value to the world using the latest technologies and frameworks available to me.
+                </p>
+            </div>
+        </div>
+        
         <div class="row d-flex justify-content-center">
             <div class="col-xs-1 text-center">
-                <h1>Skills</h1>
+                <h1 id="skills">Skills</h1>
                 <i class="devicon-bootstrap-plain-wordmark"></i>
                 <i class="devicon-git-plain-wordmark"></i>
                 <i class="devicon-html5-plain-wordmark"></i>
                 <i class="devicon-react-original-wordmark"></i>
             </div>
         </div>
+
         <div class="row d-flex justify-content-center">
             <div class="col-xs-1 text-center">
                 <i class="devicon-visualstudio-plain-wordmark"></i>
@@ -66,21 +83,75 @@
             </div>
         </div>
 
+        <div class="row d-flex justify-content-center">
+            <h1 id="experience">Experience</h1>
+        </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-xs-1 text-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-1 text-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-xs-1 text-center">
+                  <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+        <div class="row d-flex justify-content-center bg-light">
+            <div class="col-xs-1 text-center">
+                <h1 id="projects" class="text-dark">Projects</h1>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center bg-dark">
+            <div class="col-xs-1 text-center">
+                <h2 class="text-light">Ticketr</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/LIgivdCenUM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <a href="http://bit.ly/ticketr" class="btn btn-primary">Try it out!</a>
+                </div>
+            </div>
+            <div class="col-xs-1 text-center">
+                <h2 class="text-light">SkateTherapy.org</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/LIgivdCenUM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    </div>
     </body>
     <script src="js/jquery.js"></script>
     <script src="js/popper.js"></script>

@@ -58,4 +58,14 @@ i {
 
 #github-icon {
     font-size: 40px;
+    color: black;
+}
+
+#linkedin-icon {
+    font-size: 42px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
 }
