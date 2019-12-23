@@ -1,6 +1,4 @@
-* {
-    padding: 5px;
-}
+
 
 body {
     background-color: rgb(71, 71, 71);
@@ -52,20 +50,6 @@ i {
     padding: 0;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-.sticky {
-    position: fixed;
-    top: 93%;
-    left: 85%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    opacity: 70%;
-}
-
 .hi {
     font-size: large;
     padding: 0px;
@@ -89,3 +73,27 @@ a:hover {
 #skills {
     margin-bottom: 20;
 }
+
+.socialButton {
+    position:fixed;
+    right:1.1rem;
+    z-index: 50001;
+  }
+  #linkedinbutton {
+    bottom:0px;
+  }
+  #githubbutton {
+    bottom:55px;
+  }
+  .socialButton img{
+    height:50px;
+    padding:2px;
+    opacity:0.6;
+  }
+
+  .socialButton img:hover {
+      transition: all 0.25s;
+      opacity: 1.0;
+  }
+
+
