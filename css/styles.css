@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: rgb(71, 71, 71);
@@ -27,7 +29,8 @@ header {
 }
 
 i {
-    font-size: 90px;
+    font-size: 110px;
+    padding: 10px;
 }
 
 #boo {
@@ -76,7 +79,7 @@ i {
 
 .socialButton {
     position:fixed;
-    right:1.1rem;
+    right: 20px;
     z-index: 50001;
   }
   #linkedinbutton {
@@ -96,4 +99,8 @@ i {
       opacity: 1.0;
   }
 
+  hr.pretty-h-line {
+    border: 2px solid #17a2b8;
+  }
+ 
 
