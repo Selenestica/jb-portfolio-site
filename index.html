@@ -8,8 +8,7 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-width">
-            <a class="navbar-brand" href="#">Home</a>
+        <nav class="navbar navbar-expand-lg navbar-dark nav-width">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,7 +54,7 @@
 
         <div class="row d-flex justify-content-center pb-5">
             <div class="col-8 text-center"> 
-                <h1 id="about-me" class="text-light display-4">About Me</h1>
+                <h1 id="about-me" class="text-light display-4"><span class="text-info"><b>< </b></span>About Me<span class="text-info"><b> ></b></span></h1>
                 <p class="" id="about-me-p">
                     I'm a <b class="text-info">full stack software developer</b> based in <b class="text-info">Houston,</b class="text-info"> Texas specializing in building and designing <b class="text-info">exceptional, high-quality websites and applications.</b class="text-info">
                     My goal is to <b class="text-info">bring value to the world</b class="text-info"> using the latest technologies and frameworks available to me.
@@ -63,7 +62,7 @@
             </div>
         </div>
         
-        <h1 id="skills" class="display-4 text-center">Languages and Skills</h1>
+        <h1 id="skills" class="display-4 text-center"><span class="text-info"><b>< </b></span>Languages and Skills<span class="text-info"><b> ></b></span></h1>
         <div class="row d-flex justify-content-center py-3">
             <div class="col text-center py-2">
                 <i class="devicon-html5-plain-wordmark text-info"></i>
@@ -94,13 +93,14 @@
             </div>
         </div>
 
-        <h1 id="experience" class="display-4 text-center py-5"><span class="text-info"><b>< </b></span>Experience<span class="text-info"><b> /></b></span></h1>
+        <h1 id="experience" class="display-4 text-center py-5"><span class="text-info"><b>< </b></span>Experience<span class="text-info"><b> ></b></span></h1>
         <div class="row d-flex justify-content-center">        
             <div class="row d-flex justify-content-center">
                 <div class="col text-center">
                     <div class="card" style="width: 22rem;">
                         <div class="card-body">
                             <h5 class="card-title text-dark">Software Engineer</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">DigitalCrafts, Houston</h6>
                             <h6 class="card-subtitle mb-2 text-muted">DigitalCrafts, Houston</h6>
                             <p class="card-text text-dark">
                                 Collaborated with other developers to complete large-scale projects in short amounts of time.<br> 
@@ -114,7 +114,8 @@
                         <div class="card-body">
                             <h5 class="card-title text-dark">Web Developer</h5>
                             <h6 class="card-subtitle mb-2 text-muted">Self-Employed, Houston</h6>
-                            <p class="card-text text-dark">Webmaster of skatetherapy.org, which is currently in development</p>
+                            <p class="card-text text-dark">Webmaster of skatetherapy.org, which is currently in development. 
+                                Moving the website out of Wix, and into a more modern format using Node.js, mustache-express, and Bootstrap.</p>
                         </div>
                     </div>
                 </div>
@@ -135,59 +136,106 @@
 
         <div class="row d-flex justify-content-center py-5">
             <div class="col-8 text-center">
-                <h1 id="projects" class="display-4"><span class="text-info">< </span>Projects<span class="text-info"> ></span></h1>
+                <h1 id="projects" class="display-4"><span class="text-info"><b>< </b></span>Projects<span class="text-info"><b> ></b></span></h1>
             </div>
         </div>
 
         <div class="row d-flex justify-content-center">
-            <div class="col-xs-1 text-center">
+            <div class="col text-center">
                 <div class="row d-flex justify-content-center">
-                    <h2 class="text-light">Ticketr</h2>
+                    <h2 class="text-light py-3">Ticketr</h2>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-xs-1 text-center">
+                    <div class="col-4 text-center">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LIgivdCenUM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <a href="http://bit.ly/ticketr" class="btn btn-primary">Try It Out!</a>
+                            <a href="http://bit.ly/ticketr" class="btn btn-info">Try It Out!</a>
                         </div>
                     </div>
-                    <div class="col-xs-1 text-center">
-                        <p>
-                            Ticketr is really cool you should try it out you can submit tickets<br> 
+                    <div class="col-4 text-center">
+                        <p class="project-description">
+                            Ticketr is really cool you should try it out you can submit tickets 
                             if you have a problem or something you know what I mean?
                         </p>
+                        <p><span class="text-info">HTML, CSS, Javascript, Google Firebase</span></p>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="row d-flex justify-content-center">
-            <div class="col-xs-1 text-center">
+            <div class="col text-center">
                 <div class="row d-flex justify-content-center">
-                    <h2 class="text-light">SkateTherapy.org</h2>
+                    <h2 class="text-light py-3">SkateTherapy.org</h2>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-xs-1 text-center">
+                    <div class="col-4 text-center">
                         <div class="embed-responsive embed-responsive-16by9">
                             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LIgivdCenUM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         <div>
-                            <a href="http://skatetherapy.org/" class="btn btn-primary">Go to site</a>
+                            <a href="http://skatetherapy.org/" class="btn btn-info">Go to site</a>
                         </div>
                     </div>
-                    <div class="col-xs-1 text-center">
-                        <p>
-                            This is an on-going project for SkateTherapy, an organization I do volunteer work for.<br> 
-                            SkateTherapy is an ice skating program for children with disabilities.<br>
-                            We give them mostly one-on-one skating lessons with experienced ice skaters.<br> 
+                    <div class="col-4 text-center">
+                        <p class="project-description">
+                            This is an on-going project for SkateTherapy, an organization I do volunteer work for. 
+                            SkateTherapy is an ice skating program for children with disabilities.
+                            We give them mostly one-on-one skating lessons with experienced ice skaters. 
                             The environment is fun, positive, and a great social outlet!
-                        </p>
+                        </pclass="project-description">
+                        <p><span class="text-info">HTML, CSS, Javascript, Node.js, mustache-express</span></p>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col text-center">
+                <div class="row d-flex justify-content-center">
+                    <h2 class="text-light py-3">Codefriendly.net</h2>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4 text-center">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LIgivdCenUM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div>
+                            <a href="http://skatetherapy.org/" class="btn btn-info">Go to site</a>
+                        </div>
+                    </div>
+                    <div class="col-4 text-center">
+                        <p class="project-description">
+                            I help complete newbies learn to code here! My goal with this project is to remove the sometimes daunting 
+                            barriers to entry that programming has. Everyone one of us that has learned to code has started from knowing nothing,  
+                            and many of us (including me) have had patient mentors to guide us along the way. Codefriendly is my way 
+                            of saying thank you, by passing along the favor.
+                        </p>
+                        <p><span class="text-info">HTML, CSS, Javascript, Node.js, mustache-express</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center py-5">
+            <div class="col-8 text-center">
+                <h1 id="contact" class="display-4"><span class="text-info"><b>< </b></span>Get In Touch<span class="text-info"><b> ></b></span></h1>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-8 text-center">
+                <p>
+                    Whether you'd like to talk about a potential project or just want to say hi, my inbox is always open! <br>
+                    Also, join me at the Bootstrap Houston Meetup! 
+                </p>
+            </div>
+        </div>
+
+
+
     </div>
     <button class="btn socialButton float-right m-1 mb" id="linkedinbutton" >
         <a target="_BLANK" href="https://www.linkedin.com/in/jb-wilson"> <img class="rounded" src="./images/linkedin-icon.png"> </a>
