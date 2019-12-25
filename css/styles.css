@@ -107,6 +107,14 @@ i {
       width: auto;
   }
 
+  .other-projects-github-button {
+      font-size: 30px;
+  }
+
+  a:hover {
+      text-decoration: none;
+  }
+
 /********************** mobile styling *************************/
 
   @media (max-width: 780px) {
