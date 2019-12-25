@@ -33,11 +33,6 @@ i {
     padding: 10px;
 }
 
-#boo {
-    height: 50%;
-    width: auto;
-}
-
 #about-me-p {
     font-size: x-large;
 }
@@ -101,6 +96,15 @@ i {
 
   hr.pretty-h-line {
     border: 2px solid #17a2b8;
+  }
+
+  #credits {
+      font-size: small;
+  }
+
+  #self-image {
+      height: 100%;
+      width: auto;
   }
 
 /********************** mobile styling *************************/
