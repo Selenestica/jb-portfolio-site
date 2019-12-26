@@ -115,6 +115,11 @@ i {
       text-decoration: none;
   }
 
+  .card-icon-and-subtext {
+      position: absolute;
+      bottom: 10px;
+  }
+
 /********************** mobile styling *************************/
 
   @media (max-width: 780px) {
