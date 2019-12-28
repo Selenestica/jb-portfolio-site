@@ -102,11 +102,6 @@ i {
       font-size: small;
   }
 
-  #self-image {
-      height: 100%;
-      width: auto;
-  }
-
   .other-projects-github-button {
       font-size: 30px;
   }
@@ -120,12 +115,48 @@ i {
       bottom: 10px;
   }
 
+  #self-image-mobile {
+      display: none;
+  }
+
+  #mobile-intro {
+      display: none !important;
+  }
+
 /********************** mobile styling *************************/
 
   @media (max-width: 780px) {
       .project-description {
           display: none;
       }
+
+      #self-image-mobile {
+          display: flex;
+          height: auto;
+          width: auto;
+      }
+
+      #self-image-desktop {
+          display: none;
+      }
+
+      i {
+          font-size: 75px;
+      }
+
+      #mobile-intro {
+        display: flex !important;
+      }
+
+      #desktop-intro {
+          display: none !important;
+      }
+
+      #about-me-p-mobile {
+          font-size: larger;
+      }
   }
+
+
  
 
