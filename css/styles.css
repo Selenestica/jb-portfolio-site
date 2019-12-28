@@ -123,6 +123,10 @@ i {
       display: none !important;
   }
 
+  h1 {
+      font-size: 3.5rem !important;
+  }
+
 /********************** mobile styling *************************/
 
   @media (max-width: 780px) {
@@ -154,6 +158,10 @@ i {
 
       #about-me-p-mobile {
           font-size: larger;
+      }
+
+      h1 {
+          font-size: 1.75rem !important;
       }
   }
 
