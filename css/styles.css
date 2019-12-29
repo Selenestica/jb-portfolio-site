@@ -111,8 +111,13 @@ i {
   }
 
   .card-icon-and-subtext {
-      position: absolute;
-      bottom: 10px;
+      position: relative;
+      top: 90px;
+  }
+
+  .card-icon-and-subtext-tgther {
+    position: relative;
+    top: 25px;
   }
 
   #self-image-mobile {
@@ -126,6 +131,12 @@ i {
   h1 {
       font-size: 3.5rem !important;
   }
+
+  #projects-mobile {
+      display: none !important;
+  }
+
+  
 
 /********************** mobile styling *************************/
 
@@ -162,6 +173,19 @@ i {
 
       h1 {
           font-size: 1.75rem !important;
+      }
+
+      .card-mobile {
+          margin-left: 28px;
+      }
+
+      #projects-desktop {
+          display: none !important;
+      }
+
+      #projects-mobile {
+          display: flex !important;
+          flex-direction: column !important;
       }
   }
 
