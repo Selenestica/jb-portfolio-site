@@ -107,14 +107,18 @@ i {
       font-size: 30px;
   }
 
+  .other-projects-wordpress-button {
+    font-size: 28px;
+}
+
   a:hover {
       text-decoration: none;
   }
 
-  .self-image {
-      border: 1px solid #17a2b8;
-      border-radius: 3%;
-  }
+  .card-icon-and-subtext-codefriendly {
+    position: relative;
+    top: 70px;
+}
 
   .card-icon-and-subtext {
       position: relative;
