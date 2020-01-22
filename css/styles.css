@@ -20,6 +20,16 @@ header {
     text-decoration: none;
 }
 
+#container-div {
+    border: 1px solid gray;
+    border-top: none;
+    max-width: 1100;
+}
+
+.navbar {
+    border: 1px solid gray;
+}
+
 .resume-box a {
     border: 1px solid rgb(71, 71, 71);
     margin: 10px;
@@ -154,9 +164,6 @@ i {
       text-align: left;
   }
 
-  .border {
-    border: 1px solid #17a2b8;
-  }
 
   
 
